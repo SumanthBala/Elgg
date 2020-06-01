@@ -17,6 +17,9 @@ foreach ($guids as $guid) {
 	$plugin = get_entity($guid);
 	if (!$plugin->isActive()) {
 		$plugins[$plugin->getId()] = $plugin;
+	} else if (!$plugin->!isActive()) {
+		$plugins[$plugin->getId()] = $plugin;
+		echo $plugin;
 	}
 }
 
