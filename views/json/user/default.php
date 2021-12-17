@@ -7,3 +7,4 @@
  */
 
 echo json_encode($vars['entity']->toObject());
+echo json_encode($vars['entity']->toString());
