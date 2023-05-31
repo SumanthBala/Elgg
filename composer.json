@@ -87,13 +87,13 @@
         "classmap": [
             "engine/tests/classes/",
             "engine/tests/phpunit/integration/",
-            "engine/tests/phpunit/unit/"
+            "engine/tests/phpunit/unit/test"
         ],
         "psr-4": {
             "Elgg\\": [
                 "engine/tests/classes/Elgg/",
                 "engine/tests/phpunit/integration/Elgg/",
-                "engine/tests/phpunit/unit/Elgg/"
+                "engine/tests/phpunit/unit/Elgg/setelggdata"
             ]
         }
     },
