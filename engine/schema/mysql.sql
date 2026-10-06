@@ -9,6 +9,20 @@ CREATE TABLE `prefix_access_collection_membership` (
   PRIMARY KEY (`user_guid`,`access_collection_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+
+CREATE TABLE `prefix_access_collection_membership` (
+  `user_guid` int(11) NOT NULL,
+  `access_collection_id` int(11) NOT NULL,
+  PRIMARY KEY (`user_guid`,`access_collection_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+
+CREATE TABLE `prefix_access_collection_membership` (
+  `user_guid` int(11) NOT NULL,
+  `access_collection_id` int(11) NOT NULL,
+  PRIMARY KEY (`user_guid`,`access_collection_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
 -- define an access collection
 CREATE TABLE `prefix_access_collections` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
